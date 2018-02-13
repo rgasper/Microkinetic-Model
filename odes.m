@@ -1,5 +1,5 @@
 function dydt = odes(t,y,flags,params)
- % params = [alpha k1p km1 k2 km2p];
+ % params = [alpha k1p km1 k2 km2 k3 km3p];
  alpha = params(1);
  k1p = params(2);
  km1 = params(3);
